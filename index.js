@@ -24,4 +24,6 @@ app.get('/api/lands', (req, res) => {
 
 app.listen(8080)
 
+module.exports = app
+
 // https://docs.google.com/spreadsheets/d/1kh5UVEvOBeaCuRURj9koU9wsg1T26WqXJxiU9kAE1qk/export?format=csv&id=1kh5UVEvOBeaCuRURj9koU9wsg1T26WqXJxiU9kAE1qk&gid=0
